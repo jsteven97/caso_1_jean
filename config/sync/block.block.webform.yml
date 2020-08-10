@@ -1,0 +1,31 @@
+uuid: 5bf6f486-59d8-4c61-a910-cca030173279
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.formulario_del_caso_1
+  module:
+    - system
+    - webform
+  theme:
+    - bartik
+id: webform
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: formulario_del_caso_1
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
