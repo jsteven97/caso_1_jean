@@ -20,6 +20,8 @@
     "drupal/admin_toolbar": "^2.3",
     "drupal/core-composer-scaffold": "8.9.3",
     "drupal/core-recommended": "8.9.3",
+    "drupal/maillog": "1.x-dev",
+    "drupal/token": "^1.7",
     "drupal/webform": "^5.19",
     "drush/drush": "^9.7.1 | ^10.0.0",
     "kporras07/composer-symlinks": "dev-master",
