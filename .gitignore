@@ -40,3 +40,4 @@ docs/html
 docs/*.epub
 docs/*.mobi
 docs/*.pdf
+/.gitattributes
